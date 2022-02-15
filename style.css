@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menubar {
+  /* top: 20px; */
+  background-color: rgb(219, 210, 210);
+  position: absolute;
+  /* width: 434px; */
+  font-family: "Roboto Slab", serif;
+  height: 100vh;
+  transition: transform 0.3s ease-in   ;
+}
+.menubar nav {
+  padding: 20px;
+  padding-bottom: 10px;
+  padding-top: 40px;
+}
+.menubar nav li {
+  list-style: none;
+  font-size: 25px;
+  /* padding-top: 0px; */
+  padding-right: 10px;
+  padding-bottom: 30px;
+}
+.menubar nav li a {
+  text-decoration: none;
+}
+
+.main {
+  /* background-color: rgb(186, 131, 238); */
+  width: 90vw;
+}
+
+.container {
+  display: flex;
+}
+.infocontainer {
+  /* background-color:rgb(119, 230, 245); */
+  height: 68vh;
+  width: 80vw;
+  margin: 142px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 50px;
+}
+.hello {
+  font-size: 30px;
+  /* font-family: 'Source Code Pro', monospace; */
+  font-family: "Courier New", Courier, monospace;
+}
+.name {
+  font-size: 40px;
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+.about {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+.moreinfo {
+  font-size: 20px;
+  font-family: "Lora", serif;
+}
+
+.buttons {
+  margin-top: 34px;
+  /* transition-duration: 0.4s; */
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  background-color: cadetblue;
+  font-size: inherit;
+  font-weight: bold;
+  font-style: initial;
+  margin-right: 10px;
+  cursor: pointer;
+  
+}
+.btn-sm{
+  font-size: 14px;
+  padding: 10px 19px;
+}
+.btn:hover {
+  background-color: white;
+  color: rgb(33, 25, 109);
+}
+
+.devpic img {
+  height: 68vh;
+}
+
+.contactform{
+padding: 034px;
+/* padding-top: 144px; */
+  font-family: "Lora", serif;
+  margin: 10px 88px;
+}
+
+.contactform h1{
+  font-family:Georgia, 'Times New Roman', Times, serif; 
+  text-align: center;
+  padding-bottom: 50px;
+  
+}
+.contactform form div{
+  
+  padding: 0px 0px 25px;
+  /* padding-top: 0px; */
+  margin: 0;
+    /* padding: 0; */
+}
+
+
+/* .contactform form {
+
+} */
+
+#clientname{
+  width: 16vw;
+  border-radius: 5px; 
+  padding: 3px; 
+}
+#emailHelp{
+  margin-top: 12px;
+  color:crimson;
+  font-size: 12px;
+}
+#clientemail{
+  width: 16vw;
+  border-radius: 5px; 
+  padding: 3px; 
+}
+#clientphone{
+  width: 10vw;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+#form-check{
+  flex-direction: row;
+}
+
+#form-check input{
+  width: 24px;
+  margin: 3px;
+
+}
+.intro{
+  margin: 69px 88px;
+
+}
+
+.intro h2{
+  font-family: "Courier New", Courier, monospace;
+  margin: 12px;
+}
+.intro p{
+  font-family: "Courier New", Courier, monospace;
+  margin: 12px;
+}
+.skillcontainer{
+  padding: 12px;
+}
+.skillitem{
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 550;
+  align-items: center;
+  
+
+}
+.skill {
+  width: 227px;
+  height: 8px;
+  background-color: red;
+  border: 2px solid black;
+}
+
+.hundred{
+  width: 300px ;
+  background-color: red;
+}
+.fifty{
+  width: 150px ;
+  background-color: darkblue;
+
+}
+.tw5{
+  width: 75px ;
+  background-color: chartreuse;
+
+}
+.zero{
+  width: 0px;
+  /* background-color: bla; */
+}
+
+.menubarGo{
+    transform: translate(-435px, 0px); 
+    position: absolute;
+  }
+
+.hamburger{
+  position: absolute;
+  cursor:pointer;
+
+  top: 10px;
+  left: 10px;
+
+  
+}
+
+.ham{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.cross{
+  margin-left: 113px;
+  margin-top: 4x;
+
+}
+/* @media (max-width: 1615px){
+  *{
+    background-color: aqua;
+
+  } */
+  /* .menubar{
+    transform: translate(-435px, 0px); 
+    position: absolute;
+  } */
+
+  /* .devpic{
+
+  } */
+
+  .blogcontainer{
+    margin: 69px 88px;
+  }
+
+  /* .intro , .blogcontainer , .contactform{
+    margin: 8px;
+  
+  } */
