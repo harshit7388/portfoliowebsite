@@ -257,3 +257,68 @@ padding: 034px;
     margin: 8px;
   
   } */
+  
+  .blogheader{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: crimson;
+  }
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  /* Header/Logo Title */
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    margin-top: -69px
+  } 
+   
+  /* Page Content */
+  .content {padding:20px;}
+
+  .headerindex{
+    padding: 59px;
+    background: #1abc9c;
+    margin-top: -69px;
+    padding-top: 72px;
+    margin-right: -162px;
+    
+    
+      }
+  .headertext{
+    font-size: 15px;
+    text-align: center;
+    
+  }
+  .headertext a{
+    text-decoration: none;
+    color:darkred;
+  }
+  /* footer{
+    background-color: #1abc9c;
+  padding-bottom: 7px;
+  text-align: end;
+  padding-right: 60px;
+
+  } */
+
+  .footer {
+    position:fixed;
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1abc9c;
+    color:black;
+    text-align: end;
+    
+    font-size: 15px;
+
+  }
+ 
